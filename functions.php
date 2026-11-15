@@ -37,7 +37,7 @@ function rakuen_enqueue_assets() {
 		'rakuen-style',
 		get_template_directory_uri() . '/assets/css/style.css',
 		array( 'rakuen-fonts' ),
-		'1.0.0'
+		'1.0.1'
 	);
 
 	// JS（assets/js/main.js）。jQuery は使っていないので依存なし。true = </body> の直前で読む

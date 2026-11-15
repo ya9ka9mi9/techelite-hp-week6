@@ -1323,7 +1323,7 @@ body {
 .company-table a:hover { text-decoration: none; }
 
 @media (min-width: 768px) {
-  .company { max-width: 1440px; padding: 70px 120px 200px; }
+  .company { max-width: 1440px; margin: 0 auto; padding: 70px 120px 200px; } /* 1440px より広い画面でも中央に置く */
   .company-table { font-size: 16px; }
   /* PC：左にラベル（幅 230px・縦線で区切る）、右に値（1行 52px） */
   .company-table__row {
