@@ -50,3 +50,25 @@ function rakuen_enqueue_assets() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'rakuen_enqueue_assets' );
+
+/**
+ * メニューの li / a に Week4 と同じクラスを付ける（Week4 の CSS をそのまま効かせるため）
+ */
+function rakuen_nav_item_class( $classes, $item, $args ) {
+	if ( isset( $args->theme_location ) && 'global' === $args->theme_location ) {
+		$classes[] = 'global-nav__item'; // ヘッダーの <li>
+	}
+	return $classes;
+}
+add_filter( 'nav_menu_css_class', 'rakuen_nav_item_class', 10, 3 );
+
+function rakuen_nav_link_class( $atts, $item, $args ) {
+	if ( isset( $args->theme_location ) && 'global' === $args->theme_location ) {
+		$atts['class'] = 'global-nav__link'; // ヘッダーの <a>
+	}
+	if ( isset( $args->theme_location ) && 'footer' === $args->theme_location ) {
+		$atts['class'] = 'site-footer__link'; // フッターの <a>
+	}
+	return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'rakuen_nav_link_class', 10, 3 );

@@ -1,74 +1,5 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="大分の自然環境と共に、身も心も癒やされる至福のひとときを提供します。日本庭園と温泉の宿、楽園雅苑。">
+<?php get_header(); ?>
 
-  <!-- favicon / OGP（Figma の Favicon・OGP フレームを書き出し） -->
-  <link rel="icon" href="/images/favicon-32.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="楽園雅苑｜大自然と調和する、極上の癒し。">
-  <meta property="og:description" content="大分の自然環境と共に、身も心も癒やされる至福のひとときを提供します。日本庭園と温泉の宿、楽園雅苑。">
-  <meta property="og:image" content="/images/ogp.jpg">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <?php wp_head(); // 演習6-4：一時的にここへ。03 で header.php に移す ?>
-</head>
-<body>
-<header class="site-header site-header--top">
-  <div class="site-header__inner">
-    <a href="/index.php" class="site-header__logo">
-      <img src="/images/logo-white.png" alt="楽園雅苑 RAKUENGAEN" width="150" height="59">
-    </a>
-
-    <nav class="global-nav" aria-label="グローバルナビ">
-      <div class="global-nav__panel">
-        <ul class="global-nav__list">
-                                  <li class="global-nav__item">
-              <a href="/index.php#rooms"
-                 class="global-nav__link"
-                 >
-                お部屋              </a>
-            </li>
-                                  <li class="global-nav__item">
-              <a href="/index.php#plan"
-                 class="global-nav__link"
-                 >
-                プラン              </a>
-            </li>
-                                  <li class="global-nav__item">
-              <a href="/index.php#season"
-                 class="global-nav__link"
-                 >
-                四季              </a>
-            </li>
-                                  <li class="global-nav__item">
-              <a href="/index.php#access"
-                 class="global-nav__link"
-                 >
-                アクセス              </a>
-            </li>
-                                  <li class="global-nav__item">
-              <a href="/service.php"
-                 class="global-nav__link"
-                 >
-                楽園雅苑のサービス              </a>
-            </li>
-                  </ul>
-      </div>
-    </nav>
-
-    <a href="/contact.php" class="site-header__reserve">予約</a>
-
-    <button class="site-header__toggle" aria-label="menu メニューを開く" aria-expanded="false">
-      <span class="site-header__toggle-lines"><span></span><span></span><span></span></span>
-      <span class="site-header__toggle-text">menu</span>
-    </button>
-  </div>
-</header>
 <main>
 
 <!-- ① ヒーロー -->
@@ -364,33 +295,5 @@
 </section>
 
 </main>
-<footer class="site-footer">
-  <div class="site-footer__inner">
-    <a href="/index.php" class="site-footer__logo">
-      <img src="/images/logo-gold.png" alt="楽園雅苑 RAKUENGAEN" width="230" height="90" loading="lazy">
-    </a>
 
-    <nav class="site-footer__nav" aria-label="フッターナビ">
-      <ul class="site-footer__nav-list">
-                  <li><a href="/index.php#rooms" class="site-footer__link">お部屋</a></li>
-                  <li><a href="/index.php#plan" class="site-footer__link">プラン</a></li>
-                  <li><a href="/index.php#season" class="site-footer__link">四季</a></li>
-                  <li><a href="/index.php#access" class="site-footer__link">アクセス</a></li>
-                  <li><a href="/service.php" class="site-footer__link">楽園雅苑のサービス</a></li>
-                  <li><a href="/blog.php" class="site-footer__link">ブログ</a></li>
-                  <li><a href="/news.php" class="site-footer__link">お知らせ</a></li>
-              </ul>
-    </nav>
-
-    <ul class="site-footer__sub">
-              <li><a href="/about.php" class="site-footer__link">運営会社情報</a></li>
-              <li><a href="/privacy.php" class="site-footer__link">プライバシーポリシー</a></li>
-              <li><a href="/terms.php" class="site-footer__link">利用規約</a></li>
-          </ul>
-
-    <p class="site-footer__copy"><small>&copy; RAKUGAEN.</small></p>
-  </div>
-</footer>
-<?php wp_footer(); // 演習6-4：一時的にここへ。03 で footer.php に移す ?>
-</body>
-</html>
+<?php get_footer(); ?>
