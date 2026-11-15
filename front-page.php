@@ -16,8 +16,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <?php wp_head(); // 演習6-4：一時的にここへ。03 で header.php に移す ?>
 </head>
 <body>
 <header class="site-header site-header--top">
@@ -393,6 +392,6 @@
     <p class="site-footer__copy"><small>&copy; RAKUGAEN.</small></p>
   </div>
 </footer>
-<script src="/js/main.js"></script>
+<?php wp_footer(); // 演習6-4：一時的にここへ。03 で footer.php に移す ?>
 </body>
 </html>
