@@ -9,6 +9,14 @@
 function rakuen_setup() {
 	add_theme_support( 'title-tag' );       // <title> を WordPress がページごとに自動で出す
 	add_theme_support( 'post-thumbnails' ); // アイキャッチ画像を使えるようにする（Week7 のブログで使う）
+
+	// メニューの置き場所（棚）を登録する。表示は header.php / footer.php の wp_nav_menu で行う
+	register_nav_menus(
+		array(
+			'global' => 'グローバルナビ（ヘッダー）', // '場所の名前' => '管理画面での表示名'
+			'footer' => 'フッターメニュー',
+		)
+	);
 }
 add_action( 'after_setup_theme', 'rakuen_setup' );
 
