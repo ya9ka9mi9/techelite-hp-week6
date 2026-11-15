@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>楽園雅苑｜大自然と調和する、極上の癒し。</title>
   <meta name="description" content="大分の自然環境と共に、身も心も癒やされる至福のひとときを提供します。日本庭園と温泉の宿、楽園雅苑。">
 
   <!-- favicon / OGP（Figma の Favicon・OGP フレームを書き出し） -->

@@ -4,6 +4,15 @@
  */
 
 /**
+ * テーマの機能を有効にする
+ */
+function rakuen_setup() {
+	add_theme_support( 'title-tag' );       // <title> を WordPress がページごとに自動で出す
+	add_theme_support( 'post-thumbnails' ); // アイキャッチ画像を使えるようにする（Week7 のブログで使う）
+}
+add_action( 'after_setup_theme', 'rakuen_setup' );
+
+/**
  * CSS / JS の読み込み
  */
 function rakuen_enqueue_assets() {
