@@ -1851,3 +1851,10 @@ body {
 }
 .page-body h2 { font-size: 1.6rem; margin-top: 2em; }
 .page-body p + p { margin-top: 1em; }
+
+/* ===== WordPress：現在地ハイライト（wp_nav_menu が今のページに current-menu-item を付ける） =====
+   Week4 の .global-nav__link.is-current と同じ見た目。
+   TOP 内へのリンク（カスタムリンク）は TOP では全部に付いてしまうので除く */
+.global-nav__item.current-menu-item:not(.menu-item-type-custom) > .global-nav__link {
+  text-decoration: underline;
+}
