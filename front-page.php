@@ -4,7 +4,7 @@
 
 <!-- ① ヒーロー -->
 <section class="hero" aria-label="メインビジュアル">
-  <img class="hero__bg" src="/images/hero.jpg" alt="" width="1440" height="900" fetchpriority="high">
+  <img class="hero__bg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero.jpg" alt="" width="1440" height="900" fetchpriority="high">
   <div class="hero__body">
     <h1 class="hero__catch">大自然と調和する、<br class="u-sp">極上の癒し。</h1>
     <p class="hero__lead">大分の自然環境と共に、<br>身も心も癒やされる<br class="u-sp">至福のひとときを提供します。</p>
@@ -16,18 +16,18 @@
 <section class="intro" aria-label="ごあいさつ">
   <div class="intro__inner">
     <div class="intro__body">
-      <img class="intro__logo" src="/images/logo-gold.png" alt="楽園雅苑 RAKUENGAEN" width="260" height="102" loading="lazy">
+      <img class="intro__logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-gold.png" alt="楽園雅苑 RAKUENGAEN" width="260" height="102" loading="lazy">
       <p class="intro__text">自然美に囲まれた楽園で、<br>贅沢な癒しのひとときを<br>お過ごしください。</p>
     </div>
-    <img class="intro__img-main" src="/images/intro-main.jpg" alt="紅葉を望む座敷" width="610" height="460" loading="lazy">
-    <img class="intro__img-sub" src="/images/intro-sub.jpg" alt="季節の料理" width="250" height="250" loading="lazy">
+    <img class="intro__img-main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/intro-main.jpg" alt="紅葉を望む座敷" width="610" height="460" loading="lazy">
+    <img class="intro__img-sub" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/intro-sub.jpg" alt="季節の料理" width="250" height="250" loading="lazy">
   </div>
 </section>
 
 <!-- ③ お部屋 -->
 <section class="rooms" id="rooms">
   <div class="container">
-    <img class="rooms__pattern" src="/images/pattern-seigaiha.png" alt="" width="241" height="128" loading="lazy">
+    <img class="rooms__pattern" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pattern-seigaiha.png" alt="" width="241" height="128" loading="lazy">
     <h2 class="section-head">
   <span class="section-head__ja">お部屋</span>
   <span class="section-head__en" lang="en">room</span>
@@ -48,21 +48,21 @@
           </div>
 
           <div class="room-panel" role="tabpanel" id="panel-standard" aria-labelledby="tab-standard" >
-        <img class="room-panel__img" src="/images/room-standard.jpg" alt="大きな窓から庭を望む和室" width="1200" height="650" loading="lazy">
+        <img class="room-panel__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/room-standard.jpg" alt="大きな窓から庭を望む和室" width="1200" height="650" loading="lazy">
         <div class="room-panel__body">
           <h3 class="room-panel__title">自然のぬくもり</h3>
           <p class="room-panel__text">「自然のぬくもり」スタンダードルームは、自然との共感を感じるお部屋です。山の景色を楽しむことができ、ナチュラルリトリートプランには朝食が含まれています。心地よいぬくもりとくつろぎのひとときを提供します。</p>
         </div>
       </div>
           <div class="room-panel" role="tabpanel" id="panel-deluxe" aria-labelledby="tab-deluxe" hidden>
-        <img class="room-panel__img" src="/images/room-deluxe.jpg" alt="こたつのある広い和室" width="1200" height="650" loading="lazy">
+        <img class="room-panel__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/room-deluxe.jpg" alt="こたつのある広い和室" width="1200" height="650" loading="lazy">
         <div class="room-panel__body">
           <h3 class="room-panel__title">静寂の庭園</h3>
           <p class="room-panel__text">「静寂の庭園」デラックスルームは、静寂と美しさに包まれた部屋です。個別の温泉ビューバルコニーからは、美しい庭園と温泉の景色が広がります。ロマンティックゲットアウェイプランで、特別なひとときを過ごしましょう。</p>
         </div>
       </div>
           <div class="room-panel" role="tabpanel" id="panel-premium" aria-labelledby="tab-premium" hidden>
-        <img class="room-panel__img" src="/images/room-premium.jpg" alt="木のぬくもりを感じるラウンジ" width="1200" height="650" loading="lazy">
+        <img class="room-panel__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/room-premium.jpg" alt="木のぬくもりを感じるラウンジ" width="1200" height="650" loading="lazy">
         <div class="room-panel__body">
           <h3 class="room-panel__title">桜花の調べ</h3>
           <p class="room-panel__text">「桜花の調べ」プレミアスィートは、最高級のラグジュアリーを追求した特別なお部屋です。広々とした空間に、温泉露天風呂が設けられ、そこからは四季折々の美しい景色を楽しむことができます。</p>
@@ -74,7 +74,7 @@
 <!-- ④ プラン -->
 <section class="plan" id="plan">
   <div class="container">
-    <img class="plan__pattern" src="/images/pattern-ichimatsu.png" alt="" width="235" height="78" loading="lazy">
+    <img class="plan__pattern" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pattern-ichimatsu.png" alt="" width="235" height="78" loading="lazy">
     <h2 class="section-head">
   <span class="section-head__ja">プラン</span>
   <span class="section-head__en" lang="en">plan</span>
@@ -121,60 +121,60 @@
     <p class="section-lead">「楽園雅苑」は、大分県自然の美しさが四季折々に変化する場所です。春には桜花が舞い、夏には新緑が輝き、秋には紅葉が魅了し、冬には雪景色が広がります。四季折々の風景や風味を楽しむためのアクティビティや特別なイベントが用意されています。どの季節に訪れても、自然の美しさに囲まれた楽園で贅沢なひとときを過ごしませんか？</p>
   </div>
   <div class="seasons__gallery">
-    <img class="seasons__img-main" src="/images/season-main.jpg" alt="紅葉に彩られた湖" width="1020" height="536" loading="lazy">
-    <img class="seasons__cloud seasons__cloud--1" src="/images/cloud-1.png" alt="" width="211" height="93" loading="lazy">
-    <img class="seasons__img-fall" src="/images/season-waterfall.jpg" alt="新緑に囲まれた滝" width="230" height="300" loading="lazy">
-    <img class="seasons__img-sub" src="/images/season-sub.jpg" alt="雪景色の露天風呂" width="586" height="338" loading="lazy">
-    <img class="seasons__cloud seasons__cloud--2" src="/images/cloud-2.png" alt="" width="155" height="55" loading="lazy">
+    <img class="seasons__img-main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-main.jpg" alt="紅葉に彩られた湖" width="1020" height="536" loading="lazy">
+    <img class="seasons__cloud seasons__cloud--1" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cloud-1.png" alt="" width="211" height="93" loading="lazy">
+    <img class="seasons__img-fall" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-waterfall.jpg" alt="新緑に囲まれた滝" width="230" height="300" loading="lazy">
+    <img class="seasons__img-sub" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-sub.jpg" alt="雪景色の露天風呂" width="586" height="338" loading="lazy">
+    <img class="seasons__cloud seasons__cloud--2" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cloud-2.png" alt="" width="155" height="55" loading="lazy">
   </div>
   <!-- 四季の写真スライダー：左右の矢印で1枚ずつ動く（最後まで行くと最初に戻る） -->
     <div class="season-slider" role="region" aria-roledescription="カルーセル" aria-label="四季の写真">
     <div class="season-slider__viewport">
       <ul class="season-slider__track">
                     <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-1.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-1.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-2.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-2.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-3.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-3.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-4.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-4.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-5.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-5.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item">
-              <img src="/images/season-strip-1.jpg" alt="桜の咲く渓谷" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-1.jpg" alt="桜の咲く渓谷" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item">
-              <img src="/images/season-strip-2.jpg" alt="崖沿いの山道と新緑" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-2.jpg" alt="崖沿いの山道と新緑" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item">
-              <img src="/images/season-strip-3.jpg" alt="霧氷に覆われた山" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-3.jpg" alt="霧氷に覆われた山" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item">
-              <img src="/images/season-strip-4.jpg" alt="菜の花畑と一本の木" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-4.jpg" alt="菜の花畑と一本の木" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item">
-              <img src="/images/season-strip-5.jpg" alt="紅葉と湯けむりの東屋" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-5.jpg" alt="紅葉と湯けむりの東屋" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-1.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-1.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-2.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-2.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-3.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-3.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-4.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-4.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                       <li class="season-slider__item" aria-hidden="true">
-              <img src="/images/season-strip-5.jpg" alt="" width="340" height="244" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/season-strip-5.jpg" alt="" width="340" height="244" loading="lazy">
             </li>
                 </ul>
     </div>
@@ -200,7 +200,7 @@
   </div>
   <div class="container">
     <div class="top-access__address">
-      <img src="/images/logo-gold.png" alt="楽園雅苑 RAKUENGAEN" width="169" height="66" loading="lazy">
+      <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-gold.png" alt="楽園雅苑 RAKUENGAEN" width="169" height="66" loading="lazy">
       <p>〒879-5425<br class="u-sp"> 大分県由布市　庄内町渕</p>
     </div>
     <p class="top-access__text">当宿からのアクセスは便利で、お車や公共交通機関をご利用いただけます。<br>自家用車をご利用の場合、ご宿泊の方には無料の駐車場がご用意されております。<br>公共交通機関をご利用の場合、最寄り駅からはバス、タクシー、またはレンタサイクルを利用してお越しいただけます。</p>
@@ -218,7 +218,7 @@
         <!-- 新着3件だけ -->
         <article class="post-card">
   <a href="/blog-detail.php" class="post-card__link">
-    <img class="post-card__img" src="/images/blog-01.jpg" alt="湯けむりが立ちのぼる温泉地" loading="lazy" width="380" height="230">
+    <img class="post-card__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog-01.jpg" alt="湯けむりが立ちのぼる温泉地" loading="lazy" width="380" height="230">
     <div class="post-card__body">
       <time class="post-card__date" datetime="2026-10-20">2026/10/20</time>
       <h3 class="post-card__title">湯けむりの里を歩く。宿から足をのばして地獄めぐりへ</h3>
@@ -229,7 +229,7 @@
         <!-- 新着3件だけ -->
         <article class="post-card">
   <a href="/blog-detail.php" class="post-card__link">
-    <img class="post-card__img" src="/images/blog-02.jpg" alt="温泉につかるニホンザル" loading="lazy" width="380" height="230">
+    <img class="post-card__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog-02.jpg" alt="温泉につかるニホンザル" loading="lazy" width="380" height="230">
     <div class="post-card__body">
       <time class="post-card__date" datetime="2026-10-12">2026/10/12</time>
       <h3 class="post-card__title">温泉に入るサルの話。冬の湯けむり豆知識</h3>
@@ -240,7 +240,7 @@
         <!-- 新着3件だけ -->
         <article class="post-card">
   <a href="/blog-detail.php" class="post-card__link">
-    <img class="post-card__img" src="/images/blog-03.jpg" alt="料理を盛り付ける料理長の手元" loading="lazy" width="380" height="230">
+    <img class="post-card__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog-03.jpg" alt="料理を盛り付ける料理長の手元" loading="lazy" width="380" height="230">
     <div class="post-card__body">
       <time class="post-card__date" datetime="2026-10-05">2026/10/05</time>
       <h3 class="post-card__title">料理長が語る、秋の会席に込めた想い</h3>

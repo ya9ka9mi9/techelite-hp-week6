@@ -581,7 +581,7 @@ body {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: url(/images/texture-washi.jpg) center / cover;
+  background: url(../images/texture-washi.jpg) center / cover;
   opacity: .4;
 }
 .rooms .container { position: relative; }
