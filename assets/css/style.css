@@ -1841,3 +1841,13 @@ body {
   .confirm-list { padding-left: 0; padding-right: 0; }
   .confirm-list__row { grid-template-columns: 220px 1fr; }
 }
+
+/* ===== WordPress：固定ページの本文（page.php の the_content） ===== */
+.page-body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 20px 52px;
+  line-height: 1.9;
+}
+.page-body h2 { font-size: 1.6rem; margin-top: 2em; }
+.page-body p + p { margin-top: 1em; }
